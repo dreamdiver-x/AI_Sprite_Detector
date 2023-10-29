@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "33d9a94f2a922dcaacea4f9d40058288",
+        "name": "Martin-Popek-sprites2302-1-of-1a_1574692921.jpg",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprites2302-1-of-1a_1574692921.jpg",
+        "size": {
+            "width": 720,
+            "height": 576
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "FQdrlMCHn",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 123.09945870535714,
+                "width": 134.2902957589286,
+                "left": 299.3554185267857,
+                "top": 309.39428571428573
+            },
+            "points": [
+                {
+                    "x": 299.3554185267857,
+                    "y": 309.39428571428573
+                },
+                {
+                    "x": 433.6457142857143,
+                    "y": 309.39428571428573
+                },
+                {
+                    "x": 433.6457142857143,
+                    "y": 432.49374441964284
+                },
+                {
+                    "x": 299.3554185267857,
+                    "y": 432.49374441964284
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

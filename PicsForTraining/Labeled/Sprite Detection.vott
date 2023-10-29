@@ -1,0 +1,988 @@
+{
+    "name": "Sprite Detection",
+    "securityToken": "Sprite Detection Token",
+    "sourceConnection": {
+        "name": "SpriteDetectorSource",
+        "description": "SourceFiles",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzU2YjVhMWYzNmY4MmNiZjY0N2IxMDFkNzkxOTgxY2Y0YTc0N2NlNjUyNDZlMDhjOGE0YWIzN2VkZmUwOWY4YWQwZDNiY2U5YTEzOTZlMWU5YmU3Y2Q3ZmQyNDdiMGU2IiwiaXYiOiJkMmFlMjlhNGI4Yjc1MjUxNWQzMDA0YWM2YTAxMjdlYzMxYzE0ZWUwNjJkOGFhOWQifQ=="
+        },
+        "id": "72Znvnm7Z"
+    },
+    "targetConnection": {
+        "name": "SpriteDetector",
+        "description": "Sprites in pictures",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWE2NTAxZTE5ZDZkZDRmZWFkZjkzNzlmZTBlYTIwNjM0ODA5ZTJiNGE4N2EwODJjYmY3OGY1OTA0NmExYmNlMzIxMzYzYzY5YjljMjI4M2VjMjcyNTQwM2M1M2YwMjg0IiwiaXYiOiJhMDEyMWZiMmE1NDBiOWEwOTUyMTJjYWM1MjMzM2I1NzVmNjNiMDBkOWM2YTFjMzEifQ=="
+        },
+        "id": "0tbvUPSMR"
+    },
+    "description": "Sprites and Elves detected",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "RedSprite",
+            "color": "#5db300"
+        },
+        {
+            "name": "Elve",
+            "color": "#e81123"
+        }
+    ],
+    "id": "tmPgKQxNo",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTQ4YjBjMDUxNjM5N2RkNjc5MTlmNDQ1Njk3NjBhZWE5YTE2ZjFlMDI3MjU5ZjZjZTZiNjgzYTBjNDlhNTk2ZjNmNzRmYzcxMWM5OTkwNDFkMjNkNWI3OTAwNjZiMWM1IiwiaXYiOiJkMTBhM2Q0MjM1YjdlZjIzYmYxMzViY2NjMDhhOWJiMzRmZGUyMGNhOTJkOTNhODcifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "7eca7f40fc5f99684d133c494cacfa93",
+    "assets": {
+        "8612bdd1b99248fa3c7c346575ac29bb": {
+            "format": "jpg",
+            "id": "8612bdd1b99248fa3c7c346575ac29bb",
+            "name": "13931-Bearbeitet.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/13931-Bearbeitet.jpg",
+            "size": {
+                "width": 3840,
+                "height": 2160
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62d6f289bdfd37e6bfeb8fff50de3855": {
+            "format": "jpg",
+            "id": "62d6f289bdfd37e6bfeb8fff50de3855",
+            "name": "Adrien-Mauduit-1_1511342263.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Adrien-Mauduit-1_1511342263.jpg",
+            "size": {
+                "width": 5130,
+                "height": 3313
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70fe22bc32ec99c4d7c0ca0282acf621": {
+            "format": "jpg",
+            "id": "70fe22bc32ec99c4d7c0ca0282acf621",
+            "name": "Christophe-SUAREZ-CS2020_Z06_6809-1920-2_1601562128.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Christophe-SUAREZ-CS2020_Z06_6809-1920-2_1601562128.jpg",
+            "size": {
+                "width": 1280,
+                "height": 1920
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7eca7f40fc5f99684d133c494cacfa93": {
+            "format": "png",
+            "id": "7eca7f40fc5f99684d133c494cacfa93",
+            "name": "Daniel-AnAerba-DSC05579-1-1280-s_1560278703.png",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Daniel-AnAerba-DSC05579-1-1280-s_1560278703.png",
+            "size": {
+                "width": 1280,
+                "height": 855
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c4d83277fb14866c2236341d22f233f1": {
+            "format": "png",
+            "id": "c4d83277fb14866c2236341d22f233f1",
+            "name": "Daniel-Serba-DSC08664-1x_1592047155.png",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Daniel-Serba-DSC08664-1x_1592047155.png",
+            "size": {
+                "width": 1280,
+                "height": 908
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ec73beae388088038d1a029e32bc54f": {
+            "format": "jpg",
+            "id": "2ec73beae388088038d1a029e32bc54f",
+            "name": "Douglas-Kiesling-C0349.00_01_36_56.Still002-copy_1658572495_lg.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Douglas-Kiesling-C0349.00_01_36_56.Still002-copy_1658572495_lg.jpg",
+            "size": {
+                "width": 730,
+                "height": 411
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b19b0f4440459895fa645764e474b2f8": {
+            "format": "png",
+            "id": "b19b0f4440459895fa645764e474b2f8",
+            "name": "East-Coast-National-Scenic-Area-Administration-2022-08-10-19.18.12Red-Sprite_1660209582_lg.png",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/East-Coast-National-Scenic-Area-Administration-2022-08-10-19.18.12Red-Sprite_1660209582_lg.png",
+            "size": {
+                "width": 730,
+                "height": 371
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3862d27eb12b581d4aa9713bd969d334": {
+            "format": "png",
+            "id": "3862d27eb12b581d4aa9713bd969d334",
+            "name": "East-Coast-National-Scenic-Area-Administration-2022-08-10-19.55.11Red-Sprite_1660209582_lg.png",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/East-Coast-National-Scenic-Area-Administration-2022-08-10-19.55.11Red-Sprite_1660209582_lg.png",
+            "size": {
+                "width": 730,
+                "height": 410
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d57196e9c39669b55f87e5ad800c4bd0": {
+            "format": "jpg",
+            "id": "d57196e9c39669b55f87e5ad800c4bd0",
+            "name": "FB4A2647-Bearbeitet_ll-low-light.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/FB4A2647-Bearbeitet_ll-low-light.jpg",
+            "size": {
+                "width": 5235,
+                "height": 2945
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a119ca5ba84233158fc7062fb0861c5": {
+            "format": "jpg",
+            "id": "8a119ca5ba84233158fc7062fb0861c5",
+            "name": "FB4A3585-Bearbeitet_ll-low-light.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/FB4A3585-Bearbeitet_ll-low-light.jpg",
+            "size": {
+                "width": 5235,
+                "height": 2945
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c4d9d5beff8ecbcff7772f9555ac2b6": {
+            "format": "jpg",
+            "id": "0c4d9d5beff8ecbcff7772f9555ac2b6",
+            "name": "FB4A5076-Bearbeitet_ll-low-light.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/FB4A5076-Bearbeitet_ll-low-light.jpg",
+            "size": {
+                "width": 5235,
+                "height": 2945
+            },
+            "state": 2,
+            "type": 1
+        },
+        "01a043532275a78fdab53a86e749350c": {
+            "format": "jpg",
+            "id": "01a043532275a78fdab53a86e749350c",
+            "name": "Frankie-Lucena-neg_sprite_enh_labels_1000dpi_1629243220.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Frankie-Lucena-neg_sprite_enh_labels_1000dpi_1629243220.jpg",
+            "size": {
+                "width": 1000,
+                "height": 563
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8b9feede0e3e8d0447e71b8e9107cedf": {
+            "format": "jpg",
+            "id": "8b9feede0e3e8d0447e71b8e9107cedf",
+            "name": "Frankie-Lucena-neg_sprite_timestamp_1200dpi_1601943879.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Frankie-Lucena-neg_sprite_timestamp_1200dpi_1601943879.jpg",
+            "size": {
+                "width": 1200,
+                "height": 741
+            },
+            "state": 2,
+            "type": 1
+        },
+        "948eed67f329a130c5ce7d1a60290d23": {
+            "format": "jpg",
+            "id": "948eed67f329a130c5ce7d1a60290d23",
+            "name": "Frankie-Lucena-sprites_stacked_1000dpi_1661120640_lg.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Frankie-Lucena-sprites_stacked_1000dpi_1661120640_lg.jpg",
+            "size": {
+                "width": 730,
+                "height": 411
+            },
+            "state": 2,
+            "type": 1
+        },
+        "225fd49d2778047db082a769c75aa317": {
+            "format": "jpg",
+            "id": "225fd49d2778047db082a769c75aa317",
+            "name": "Frankie-Lucena-sprite_venus_720p_1640230249.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Frankie-Lucena-sprite_venus_720p_1640230249.jpg",
+            "size": {
+                "width": 720,
+                "height": 594
+            },
+            "state": 2,
+            "type": 1
+        },
+        "11f82e787e071942686010d5de2b2818": {
+            "format": "jpg",
+            "id": "11f82e787e071942686010d5de2b2818",
+            "name": "Frankie-Lucena-sprite_halo_aug21_2022_labels_crop_1667015051_lg.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Frankie-Lucena-sprite_halo_aug21_2022_labels_crop_1667015051_lg.jpg",
+            "size": {
+                "width": 730,
+                "height": 652
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e0a4639a835949197951269dddb53f49": {
+            "format": "jpg",
+            "id": "e0a4639a835949197951269dddb53f49",
+            "name": "Harald-Edens-Edens_d_140719_052814-2_1405755587.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Harald-Edens-Edens_d_140719_052814-2_1405755587.jpg",
+            "size": {
+                "width": 600,
+                "height": 600
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cac0e6aeadfaa09cfe4051545708f19e": {
+            "format": "jpg",
+            "id": "cac0e6aeadfaa09cfe4051545708f19e",
+            "name": "Harald-Edens-Edens_d_140719_052814_1405755587.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Harald-Edens-Edens_d_140719_052814_1405755587.jpg",
+            "size": {
+                "width": 600,
+                "height": 399
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44feb7e64f12b485291f27b123b40602": {
+            "format": "jpg",
+            "id": "44feb7e64f12b485291f27b123b40602",
+            "name": "IMG_4661_ll-low-light.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/IMG_4661_ll-low-light.jpg",
+            "size": {
+                "width": 5317,
+                "height": 2988
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2bf1bdb063e7484e4a9a90aaea822f02": {
+            "format": "png",
+            "id": "2bf1bdb063e7484e4a9a90aaea822f02",
+            "name": "Jake-Stehli-1_1468317517.png",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Jake-Stehli-1_1468317517.png",
+            "size": {
+                "width": 1638,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "85e3798ff3827cb0f19e79f96d348f50": {
+            "format": "jpg",
+            "id": "85e3798ff3827cb0f19e79f96d348f50",
+            "name": "Jan-Curtis-Sprite_070716_0141-MDT_1467915136.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Jan-Curtis-Sprite_070716_0141-MDT_1467915136.jpg",
+            "size": {
+                "width": 1355,
+                "height": 897
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f5bd90b50745898cab72bacfb139ecb1": {
+            "format": "jpg",
+            "id": "f5bd90b50745898cab72bacfb139ecb1",
+            "name": "Josh-Thum-IMG_8487-306-306edit_1434337755.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Josh-Thum-IMG_8487-306-306edit_1434337755.jpg",
+            "size": {
+                "width": 2909,
+                "height": 2070
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8ba46dcf21e04815814ee9c586d0824": {
+            "format": "jpg",
+            "id": "d8ba46dcf21e04815814ee9c586d0824",
+            "name": "Kalyky-D80_4210_1657021953.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Kalyky-D80_4210_1657021953.jpg",
+            "size": {
+                "width": 4788,
+                "height": 3432
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1bac88ab4287c8794ccd53fdb0b2ce4f": {
+            "format": "jpg",
+            "id": "1bac88ab4287c8794ccd53fdb0b2ce4f",
+            "name": "KIYOHIKO-OIKAWA-gem2020asprite_1611240135.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/KIYOHIKO-OIKAWA-gem2020asprite_1611240135.jpg",
+            "size": {
+                "width": 4240,
+                "height": 2832
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34760515409d287cf326cb2a45744ab8": {
+            "format": "jpg",
+            "id": "34760515409d287cf326cb2a45744ab8",
+            "name": "martin-popek-meduza1-1-z-1_1498054814.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-meduza1-1-z-1_1498054814.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04d3031b49fb7aaf3a218d8f88450367": {
+            "format": "jpg",
+            "id": "04d3031b49fb7aaf3a218d8f88450367",
+            "name": "martin-popek-perseidy_sprites_1565628702.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-perseidy_sprites_1565628702.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa409181a74c5c06ba9985d8fd2ffd4b": {
+            "format": "jpg",
+            "id": "fa409181a74c5c06ba9985d8fd2ffd4b",
+            "name": "martin-popek-s2120a_1560330815.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-s2120a_1560330815.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8547fc77fc9c1693b7f0f40b52438f4c": {
+            "format": "jpg",
+            "id": "8547fc77fc9c1693b7f0f40b52438f4c",
+            "name": "Martin-Popek-s2255-1-of-1a_1601115274.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-s2255-1-of-1a_1601115274.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5caca6f058e9da3243d396527140c544": {
+            "format": "jpg",
+            "id": "5caca6f058e9da3243d396527140c544",
+            "name": "Martin-Popek-s2343-1-of-1a_1601115274.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-s2343-1-of-1a_1601115274.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "60971829e9aba80a09cb64321d108b7e": {
+            "format": "jpg",
+            "id": "60971829e9aba80a09cb64321d108b7e",
+            "name": "Martin-Popek-sp1909-1-z-1a_1441208178.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sp1909-1-z-1a_1441208178.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "15381d41953718350767210f9dd9388a": {
+            "format": "jpg",
+            "id": "15381d41953718350767210f9dd9388a",
+            "name": "Martin-Popek-sp2205-1-of-1_1656697161.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sp2205-1-of-1_1656697161.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd86adf62a7fb602b910a65482adf331": {
+            "format": "jpg",
+            "id": "fd86adf62a7fb602b910a65482adf331",
+            "name": "Martin-Popek-sprites0004-1-of-1a_1592226753.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprites0004-1-of-1a_1592226753.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0ba718e885bd5f588b092ee3bff7e4d": {
+            "format": "jpg",
+            "id": "b0ba718e885bd5f588b092ee3bff7e4d",
+            "name": "Martin-Popek-sprites2026storm1_1625246643.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprites2026storm1_1625246643.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b38319592fd72eccb5de9a6aa0ce3d65": {
+            "format": "jpg",
+            "id": "b38319592fd72eccb5de9a6aa0ce3d65",
+            "name": "Martin-Popek-sprites1920a_1661609456_lg.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprites1920a_1661609456_lg.jpg",
+            "size": {
+                "width": 730,
+                "height": 584
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d66a7c85964feaf61745a0202214ee4c": {
+            "format": "jpg",
+            "id": "d66a7c85964feaf61745a0202214ee4c",
+            "name": "Martin-Popek-sprites2107-1-of-1a_1557656731.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprites2107-1-of-1a_1557656731.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9dec73677533e12533ac494d6db3a18f": {
+            "format": "jpg",
+            "id": "9dec73677533e12533ac494d6db3a18f",
+            "name": "Martin-Popek-sprites2139-1-of-1a_1557656731.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprites2139-1-of-1a_1557656731.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "30b5f10a4cc9566634022ef8188123c2": {
+            "format": "jpg",
+            "id": "30b5f10a4cc9566634022ef8188123c2",
+            "name": "martin-popek-sprites2257-1-z-1a_1532157978.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-sprites2257-1-z-1a_1532157978.jpg",
+            "size": {
+                "width": 1016,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e89fb2373d2e4dd2f17061f456fdad46": {
+            "format": "jpg",
+            "id": "e89fb2373d2e4dd2f17061f456fdad46",
+            "name": "martin-popek-sprites2300-1-z-1_1498399156.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-sprites2300-1-z-1_1498399156.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "33d9a94f2a922dcaacea4f9d40058288": {
+            "format": "jpg",
+            "id": "33d9a94f2a922dcaacea4f9d40058288",
+            "name": "Martin-Popek-sprites2302-1-of-1a_1574692921.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprites2302-1-of-1a_1574692921.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8362a1abc9d6100f28741363965327bb": {
+            "format": "jpg",
+            "id": "8362a1abc9d6100f28741363965327bb",
+            "name": "Martin-Popek-sprites_meteor1_1607608927.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprites_meteor1_1607608927.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "957622f5728f355208077ae576fc8e03": {
+            "format": "jpg",
+            "id": "957622f5728f355208077ae576fc8e03",
+            "name": "Martin-Popek-sprite_swarm-1-of-1red_1621603417.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Martin-Popek-sprite_swarm-1-of-1red_1621603417.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b31f1f1491cee6efa048d4b1f5db3ddd": {
+            "format": "jpg",
+            "id": "b31f1f1491cee6efa048d4b1f5db3ddd",
+            "name": "martin-popek-sp_trol0028-1-of-1_1566128173.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-sp_trol0028-1-of-1_1566128173.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f441490a4c19c51321fc8203c5bc2693": {
+            "format": "jpg",
+            "id": "f441490a4c19c51321fc8203c5bc2693",
+            "name": "martin-popek-Startrails1_1564416690.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-Startrails1_1564416690.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b43d034265781de4c989b1b899ecd76e": {
+            "format": "jpg",
+            "id": "b43d034265781de4c989b1b899ecd76e",
+            "name": "martin-popek-tiger_elves-1-of-1_1564944911.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-tiger_elves-1-of-1_1564944911.jpg",
+            "size": {
+                "width": 720,
+                "height": 576
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a7b7fcdd9eb0ebb83eea938b3717836f": {
+            "format": "jpg",
+            "id": "a7b7fcdd9eb0ebb83eea938b3717836f",
+            "name": "Michael-Gavan-sprite_1590314169.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Michael-Gavan-sprite_1590314169.jpg",
+            "size": {
+                "width": 1914,
+                "height": 1072
+            },
+            "state": 2,
+            "type": 1
+        },
+        "38e5f6faa61f582df17c8a05e61de500": {
+            "format": "jpg",
+            "id": "38e5f6faa61f582df17c8a05e61de500",
+            "name": "Mike-2016_08_11_73218_1470940366.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Mike-2016_08_11_73218_1470940366.jpg",
+            "size": {
+                "width": 1800,
+                "height": 1200
+            },
+            "state": 2,
+            "type": 1
+        },
+        "71a0bbc60beff36fdb9fa05dbea0ac11": {
+            "format": "jpg",
+            "id": "71a0bbc60beff36fdb9fa05dbea0ac11",
+            "name": "Ondrej-Kralik-RedSprites_1503501835.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Ondrej-Kralik-RedSprites_1503501835.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1376
+            },
+            "state": 2,
+            "type": 1
+        },
+        "538f42e0742ac7972db0bcef3e141efd": {
+            "format": "jpg",
+            "id": "538f42e0742ac7972db0bcef3e141efd",
+            "name": "paul-smith-10_1565627155.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/paul-smith-10_1565627155.jpg",
+            "size": {
+                "width": 1685,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdf0ec7edc3da80e491cc2ca31ae66c4": {
+            "format": "jpg",
+            "id": "fdf0ec7edc3da80e491cc2ca31ae66c4",
+            "name": "paul-smith-20210406-DSC03889-denoise_1617777660.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/paul-smith-20210406-DSC03889-denoise_1617777660.jpg",
+            "size": {
+                "width": 2160,
+                "height": 1441
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d080e32e8870dd7d401925b21c6f9855": {
+            "format": "jpg",
+            "id": "d080e32e8870dd7d401925b21c6f9855",
+            "name": "paul-smith-C0001.00_04122020_1587104661.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/paul-smith-C0001.00_04122020_1587104661.jpg",
+            "size": {
+                "width": 3719,
+                "height": 2160
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62f2dc046d64aa7cd6a8b116c0993e29": {
+            "format": "jpg",
+            "id": "62f2dc046d64aa7cd6a8b116c0993e29",
+            "name": "Paul-Smith-C0002.00_44_01_24.Still005_1527886192.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Paul-Smith-C0002.00_44_01_24.Still005_1527886192.jpg",
+            "size": {
+                "width": 1130,
+                "height": 1024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea6da63632accdbcdd65bee31394f08a": {
+            "format": "jpg",
+            "id": "ea6da63632accdbcdd65bee31394f08a",
+            "name": "Paul-Smith-C0007.00_06_05_24.Still003_1539114615.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Paul-Smith-C0007.00_06_05_24.Still003_1539114615.jpg",
+            "size": {
+                "width": 3645,
+                "height": 2570
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee1e0e37c125dbc253edd9fc49d420c7": {
+            "format": "jpg",
+            "id": "ee1e0e37c125dbc253edd9fc49d420c7",
+            "name": "paul-smith-C0017meteor-end.00_04_19_09.Still002-2_1565627155.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/paul-smith-C0017meteor-end.00_04_19_09.Still002-2_1565627155.jpg",
+            "size": {
+                "width": 1548,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b65b393142ce3895e9cbd1df9ba03f6": {
+            "format": "jpg",
+            "id": "4b65b393142ce3895e9cbd1df9ba03f6",
+            "name": "Paul-Smith-C0038.00_00_04_03.Still002_1518138078.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Paul-Smith-C0038.00_00_04_03.Still002_1518138078.jpg",
+            "size": {
+                "width": 1680,
+                "height": 2048
+            },
+            "state": 2,
+            "type": 1
+        },
+        "356e4de99db0616a5f3bf1ac18b46ab1": {
+            "format": "jpg",
+            "id": "356e4de99db0616a5f3bf1ac18b46ab1",
+            "name": "Paul-Smith-palm-tree-event-06202019_1561044757.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Paul-Smith-palm-tree-event-06202019_1561044757.jpg",
+            "size": {
+                "width": 3000,
+                "height": 1688
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9f4e91670476e6af722bf26a7d84f46b": {
+            "format": "jpg",
+            "id": "9f4e91670476e6af722bf26a7d84f46b",
+            "name": "paul-smith-sprites-orion_1634585427.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/paul-smith-sprites-orion_1634585427.jpg",
+            "size": {
+                "width": 3093,
+                "height": 2808
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f46a7cf5dd7db99887279fb9a646cecc": {
+            "format": "jpg",
+            "id": "f46a7cf5dd7db99887279fb9a646cecc",
+            "name": "paul-smith-topaz-sprite-2_1571755787.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/paul-smith-topaz-sprite-2_1571755787.jpg",
+            "size": {
+                "width": 1805,
+                "height": 1609
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9bfa570da1db5f431ffcdefcf0808ca": {
+            "format": "png",
+            "id": "d9bfa570da1db5f431ffcdefcf0808ca",
+            "name": "Petr-HorAilek-2017_06_28_RS_Meteor_Klokocov_ME_fin_1498653496.png",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Petr-HorAilek-2017_06_28_RS_Meteor_Klokocov_ME_fin_1498653496.png",
+            "size": {
+                "width": 1500,
+                "height": 1000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dfeb4a11d825dd693fadd47c6380e0a2": {
+            "format": "png",
+            "id": "dfeb4a11d825dd693fadd47c6380e0a2",
+            "name": "Petr-Horalek-2021_07_15_RS_Prosec_1500px_1626372065.png",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Petr-Horalek-2021_07_15_RS_Prosec_1500px_1626372065.png",
+            "size": {
+                "width": 1500,
+                "height": 1048
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76bca406f7329e2930ce52cec90ba1bd": {
+            "format": "jpg",
+            "id": "76bca406f7329e2930ce52cec90ba1bd",
+            "name": "Phebe-Pan-IMG_9841_1471236645.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Phebe-Pan-IMG_9841_1471236645.jpg",
+            "size": {
+                "width": 1200,
+                "height": 800
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e8b13a57a13c37a13deb0eb8b1f6803": {
+            "format": "jpg",
+            "id": "1e8b13a57a13c37a13deb0eb8b1f6803",
+            "name": "Ren-Chuanfeng-Zhou-Kun-56_1589729935.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Ren-Chuanfeng-Zhou-Kun-56_1589729935.jpg",
+            "size": {
+                "width": 1528,
+                "height": 822
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6bdd06a0dcb35547e087ffdb9760bf19": {
+            "format": "jpg",
+            "id": "6bdd06a0dcb35547e087ffdb9760bf19",
+            "name": "Roger-Spinner-spinner1_1565844559.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Roger-Spinner-spinner1_1565844559.jpg",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "241e1e6b0e7556d2e16f227c6f48e8bb": {
+            "format": "jpg",
+            "id": "241e1e6b0e7556d2e16f227c6f48e8bb",
+            "name": "Stephen-Hummel-DSC_7574-2_1589485434.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Stephen-Hummel-DSC_7574-2_1589485434.jpg",
+            "size": {
+                "width": 6048,
+                "height": 4024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba984590d54eb6689da8ee603044f6c1": {
+            "format": "jpg",
+            "id": "ba984590d54eb6689da8ee603044f6c1",
+            "name": "Stephen-Hummel-Red-Sprites-2_1592771077_lg.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Stephen-Hummel-Red-Sprites-2_1592771077_lg.jpg",
+            "size": {
+                "width": 730,
+                "height": 486
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6e0d47b73f937913ea0a61a1556d0b0f": {
+            "format": "jpg",
+            "id": "6e0d47b73f937913ea0a61a1556d0b0f",
+            "name": "Stephen-Hummel-Sprite-and-Perseid-Meteor_1628542780.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Stephen-Hummel-Sprite-and-Perseid-Meteor_1628542780.jpg",
+            "size": {
+                "width": 6064,
+                "height": 3944
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d10a08c477057b994cde7a4f1e49d202": {
+            "format": "jpg",
+            "id": "d10a08c477057b994cde7a4f1e49d202",
+            "name": "Thorsten-Boeckel-19_06_06_west_sign_crop_txt_1560078820.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-19_06_06_west_sign_crop_txt_1560078820.jpg",
+            "size": {
+                "width": 500,
+                "height": 356
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea386342bf530e67624fedfca3b5176c": {
+            "format": "jpg",
+            "id": "ea386342bf530e67624fedfca3b5176c",
+            "name": "Thorsten-Boeckel-1_C00037_ausch_1400_txt_1656598396.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-1_C00037_ausch_1400_txt_1656598396.jpg",
+            "size": {
+                "width": 1400,
+                "height": 888
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc16e8ed3281863b8ce70bc9c3015cab": {
+            "format": "jpg",
+            "id": "dc16e8ed3281863b8ce70bc9c3015cab",
+            "name": "Thorsten-Boeckel-C0002_1654315291.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-C0002_1654315291.jpg",
+            "size": {
+                "width": 1200,
+                "height": 675
+            },
+            "state": 2,
+            "type": 1
+        },
+        "250d6408f1abfef1b25cd89fc3b749ee": {
+            "format": "jpg",
+            "id": "250d6408f1abfef1b25cd89fc3b749ee",
+            "name": "Thorsten-Boeckel-C00044_b_ges_ausch_kl_1504183465.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-C00044_b_ges_ausch_kl_1504183465.jpg",
+            "size": {
+                "width": 817,
+                "height": 546
+            },
+            "state": 2,
+            "type": 1
+        },
+        "868b69c64fa06af072ccb13c320cf275": {
+            "format": "jpg",
+            "id": "868b69c64fa06af072ccb13c320cf275",
+            "name": "Thorsten-Boeckel-C00083_b_first_1625968607.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-C00083_b_first_1625968607.jpg",
+            "size": {
+                "width": 1200,
+                "height": 675
+            },
+            "state": 2,
+            "type": 1
+        },
+        "796f6c6a12743fcc48537effa4c01422": {
+            "format": "jpg",
+            "id": "796f6c6a12743fcc48537effa4c01422",
+            "name": "Thorsten-Boeckel-C001111_b_ausch2_txt_1468276961.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-C001111_b_ausch2_txt_1468276961.jpg",
+            "size": {
+                "width": 1000,
+                "height": 700
+            },
+            "state": 2,
+            "type": 1
+        },
+        "648266e2fc6caced41684894126a7554": {
+            "format": "jpg",
+            "id": "648266e2fc6caced41684894126a7554",
+            "name": "Thorsten-Boeckel-C0016_rs_auss_txt_1498426715.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-C0016_rs_auss_txt_1498426715.jpg",
+            "size": {
+                "width": 599,
+                "height": 424
+            },
+            "state": 2,
+            "type": 1
+        },
+        "410007dd80ed5ba02b120e3dedf12286": {
+            "format": "jpg",
+            "id": "410007dd80ed5ba02b120e3dedf12286",
+            "name": "Thorsten-Boeckel-comp3_fin_2_aus_sm_txt_1498426456.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-comp3_fin_2_aus_sm_txt_1498426456.jpg",
+            "size": {
+                "width": 800,
+                "height": 430
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe5521b1d7fd1b208531d459f1d1bab7": {
+            "format": "jpg",
+            "id": "fe5521b1d7fd1b208531d459f1d1bab7",
+            "name": "Thorsten-Boeckel-rs_1_1497870423.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-rs_1_1497870423.jpg",
+            "size": {
+                "width": 1044,
+                "height": 636
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef31ac6b2963845494b24f62ab400141": {
+            "format": "jpg",
+            "id": "ef31ac6b2963845494b24f62ab400141",
+            "name": "Thorsten-Boeckel-Lr-4_ausch_1656448278.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Thorsten-Boeckel-Lr-4_ausch_1656448278.jpg",
+            "size": {
+                "width": 1082,
+                "height": 672
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf0a853062d409b9c3c9fe93c0cebe08": {
+            "format": "jpg",
+            "id": "cf0a853062d409b9c3c9fe93c0cebe08",
+            "name": "Valter-Binotto-RED-SPRITES_1658659251_lg.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Valter-Binotto-RED-SPRITES_1658659251_lg.jpg",
+            "size": {
+                "width": 730,
+                "height": 1095
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e793121985a0a62d351e5aa81df95a48": {
+            "format": "jpg",
+            "id": "e793121985a0a62d351e5aa81df95a48",
+            "name": "Valter-Binotto-TLE-75-OK_1629317077.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Valter-Binotto-TLE-75-OK_1629317077.jpg",
+            "size": {
+                "width": 1500,
+                "height": 844
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eaf87b9dd6e0a214cd0119baa79defa4": {
+            "format": "jpg",
+            "id": "eaf87b9dd6e0a214cd0119baa79defa4",
+            "name": "Valter-Binotto-TLE1_1562706300.jpg",
+            "path": "file:D:/Bilder/Sprite_DB/Sprites/Valter-Binotto-TLE1_1562706300.jpg",
+            "size": {
+                "width": 1300,
+                "height": 738
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

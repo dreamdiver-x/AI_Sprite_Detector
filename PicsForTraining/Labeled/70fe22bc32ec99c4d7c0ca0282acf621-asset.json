@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "70fe22bc32ec99c4d7c0ca0282acf621",
+        "name": "Christophe-SUAREZ-CS2020_Z06_6809-1920-2_1601562128.jpg",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/Christophe-SUAREZ-CS2020_Z06_6809-1920-2_1601562128.jpg",
+        "size": {
+            "width": 1280,
+            "height": 1920
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "Qr6uB4Npr",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 1207.4057059151785,
+                "width": 1180.017267972103,
+                "left": 95.69088653433477,
+                "top": 2.1942940848214287
+            },
+            "points": [
+                {
+                    "x": 95.69088653433477,
+                    "y": 2.1942940848214287
+                },
+                {
+                    "x": 1275.7081545064377,
+                    "y": 2.1942940848214287
+                },
+                {
+                    "x": 1275.7081545064377,
+                    "y": 1209.6
+                },
+                {
+                    "x": 95.69088653433477,
+                    "y": 1209.6
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

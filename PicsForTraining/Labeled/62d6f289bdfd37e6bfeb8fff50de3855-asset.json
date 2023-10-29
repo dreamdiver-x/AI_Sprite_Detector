@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "62d6f289bdfd37e6bfeb8fff50de3855",
+        "name": "Adrien-Mauduit-1_1511342263.jpg",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/Adrien-Mauduit-1_1511342263.jpg",
+        "size": {
+            "width": 5130,
+            "height": 3313
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "fwzHZfe3W",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 374.8161315142849,
+                "width": 300.0113638651751,
+                "left": 4764.601686972821,
+                "top": 1226.1465892597969
+            },
+            "points": [
+                {
+                    "x": 4764.601686972821,
+                    "y": 1226.1465892597969
+                },
+                {
+                    "x": 5064.6130508379965,
+                    "y": 1226.1465892597969
+                },
+                {
+                    "x": 5064.6130508379965,
+                    "y": 1600.9627207740816
+                },
+                {
+                    "x": 4764.601686972821,
+                    "y": 1600.9627207740816
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

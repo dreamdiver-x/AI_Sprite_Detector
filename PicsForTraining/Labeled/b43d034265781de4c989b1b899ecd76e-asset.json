@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "b43d034265781de4c989b1b899ecd76e",
+        "name": "martin-popek-tiger_elves-1-of-1_1564944911.jpg",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/martin-popek-tiger_elves-1-of-1_1564944911.jpg",
+        "size": {
+            "width": 720,
+            "height": 576
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "9q0fEmneg",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 216.57601004464286,
+                "width": 384.43884207589286,
+                "left": 111.74401506696428,
+                "top": 272.53029575892856
+            },
+            "points": [
+                {
+                    "x": 111.74401506696428,
+                    "y": 272.53029575892856
+                },
+                {
+                    "x": 496.18285714285713,
+                    "y": 272.53029575892856
+                },
+                {
+                    "x": 496.18285714285713,
+                    "y": 489.10630580357144
+                },
+                {
+                    "x": 111.74401506696428,
+                    "y": 489.10630580357144
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

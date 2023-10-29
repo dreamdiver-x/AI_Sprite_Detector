@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "eaf87b9dd6e0a214cd0119baa79defa4",
+        "name": "Valter-Binotto-TLE1_1562706300.jpg",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/Valter-Binotto-TLE1_1562706300.jpg",
+        "size": {
+            "width": 1300,
+            "height": 738
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "ReT-9d3c9",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 174.39209407390933,
+                "width": 202.73667454384375,
+                "left": 246.35427916508027,
+                "top": 215.40222772277227
+            },
+            "points": [
+                {
+                    "x": 246.35427916508027,
+                    "y": 215.40222772277227
+                },
+                {
+                    "x": 449.090953708924,
+                    "y": 215.40222772277227
+                },
+                {
+                    "x": 449.090953708924,
+                    "y": 389.79432179668163
+                },
+                {
+                    "x": 246.35427916508027,
+                    "y": 389.79432179668163
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

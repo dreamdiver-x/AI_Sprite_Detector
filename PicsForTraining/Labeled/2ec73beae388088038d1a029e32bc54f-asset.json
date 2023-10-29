@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "2ec73beae388088038d1a029e32bc54f",
+        "name": "Douglas-Kiesling-C0349.00_01_36_56.Still002-copy_1658572495_lg.jpg",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/Douglas-Kiesling-C0349.00_01_36_56.Still002-copy_1658572495_lg.jpg",
+        "size": {
+            "width": 730,
+            "height": 411
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "8j7RtPTND",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 85.89284943185511,
+                "width": 94.14058524420469,
+                "left": 27.776948880568327,
+                "top": 142.77291595915986
+            },
+            "points": [
+                {
+                    "x": 27.776948880568327,
+                    "y": 142.77291595915986
+                },
+                {
+                    "x": 121.91753412477301,
+                    "y": 142.77291595915986
+                },
+                {
+                    "x": 121.91753412477301,
+                    "y": 228.66576539101496
+                },
+                {
+                    "x": 27.776948880568327,
+                    "y": 228.66576539101496
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

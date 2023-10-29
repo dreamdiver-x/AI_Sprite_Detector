@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "225fd49d2778047db082a769c75aa317",
+        "name": "Frankie-Lucena-sprite_venus_720p_1640230249.jpg",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/Frankie-Lucena-sprite_venus_720p_1640230249.jpg",
+        "size": {
+            "width": 720,
+            "height": 594
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "sJT1tnOou",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 192.1165791974749,
+                "width": 122.79862798144877,
+                "left": 479.7879858657244,
+                "top": 119.47885973249163
+            },
+            "points": [
+                {
+                    "x": 479.7879858657244,
+                    "y": 119.47885973249163
+                },
+                {
+                    "x": 602.5866138471731,
+                    "y": 119.47885973249163
+                },
+                {
+                    "x": 602.5866138471731,
+                    "y": 311.5954389299665
+                },
+                {
+                    "x": 479.7879858657244,
+                    "y": 311.5954389299665
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

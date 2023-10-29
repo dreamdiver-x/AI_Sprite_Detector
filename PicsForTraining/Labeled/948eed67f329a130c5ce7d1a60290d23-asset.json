@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "948eed67f329a130c5ce7d1a60290d23",
+        "name": "Frankie-Lucena-sprites_stacked_1000dpi_1661120640_lg.jpg",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/Frankie-Lucena-sprites_stacked_1000dpi_1661120640_lg.jpg",
+        "size": {
+            "width": 730,
+            "height": 411
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "oZh9VJ0Yj",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 353.4189704729991,
+                "width": 308.14622101430706,
+                "left": 135.60075811727535,
+                "top": 36.637809893057465
+            },
+            "points": [
+                {
+                    "x": 135.60075811727535,
+                    "y": 36.637809893057465
+                },
+                {
+                    "x": 443.7469791315824,
+                    "y": 36.637809893057465
+                },
+                {
+                    "x": 443.7469791315824,
+                    "y": 390.05678036605656
+                },
+                {
+                    "x": 135.60075811727535,
+                    "y": 390.05678036605656
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "b19b0f4440459895fa645764e474b2f8",
+        "name": "East-Coast-National-Scenic-Area-Administration-2022-08-10-19.18.12Red-Sprite_1660209582_lg.png",
+        "path": "file:D:/Bilder/Sprite_DB/Sprites/East-Coast-National-Scenic-Area-Administration-2022-08-10-19.18.12Red-Sprite_1660209582_lg.png",
+        "size": {
+            "width": 730,
+            "height": 371
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "wUUKzCFZh",
+            "type": "RECTANGLE",
+            "tags": [
+                "RedSprite"
+            ],
+            "boundingBox": {
+                "height": 163.00555602914733,
+                "width": 78.26803706132483,
+                "left": 172.81912320109316,
+                "top": 67.76568265682657
+            },
+            "points": [
+                {
+                    "x": 172.81912320109316,
+                    "y": 67.76568265682657
+                },
+                {
+                    "x": 251.087160262418,
+                    "y": 67.76568265682657
+                },
+                {
+                    "x": 251.087160262418,
+                    "y": 230.7712386859739
+                },
+                {
+                    "x": 172.81912320109316,
+                    "y": 230.7712386859739
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
